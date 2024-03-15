@@ -1,0 +1,66 @@
+.FeaturedWorks {
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 100%;
+  color: black;
+  max-width: 860px;
+  padding-top: 15px;
+  h3 {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  &_body {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+  }
+}
+
+.WorkComponent {
+  width: 100%;
+  max-width: 860px;
+  border-bottom: 1px solid #E0E0E0;
+  display: flex;
+  gap: 18px;
+  padding-bottom: 15px;
+  &_info {
+    h3 {
+      font-family: Heebo;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    span {
+      font-family: Heebo;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 29px;
+      letter-spacing: 0px;
+      color: #8695A4;
+      text-align: left;
+      &:first-child {
+        background: #142850;
+        font-family: Heebo;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;
+        border-radius: 16px;
+        color: #fff;
+        padding:2px 10px;
+        margin-right: 16px;
+      }
+    }
+  }
+
+}

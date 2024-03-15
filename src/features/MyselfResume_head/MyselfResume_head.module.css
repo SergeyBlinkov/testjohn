@@ -1,0 +1,26 @@
+.MyselfResume_head {
+  color: black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 860px;
+  margin: 123px auto 0;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 40px;
+}
+.MyselfResume_head h2 {
+  justify-self: start;
+  font-size: 44px;
+}
+.MyselfResume_head p {
+  grid-column: 1;
+}
+.MyselfResume_head button {
+  justify-self: start;
+}
+.MyselfResume_head .MyLogo {
+  grid-column: 2;
+  grid-row: 1/4;
+}
+
+/*# sourceMappingURL=MyselfResume_head.module.css.map */
