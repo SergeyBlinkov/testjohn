@@ -1,14 +1,28 @@
 .PinkButton {
-  width: 208px;
-  height: 47px;
-  font-family: Heebo;
+  font-family: Heebo sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 29px;
   text-align: center;
   background: #FF6464;
   border-radius: 2px;
+  cursor: pointer;
   box-sizing: border-box;
-  padding: 9px;
-  border: none;
+  border: 1px solid #FF6464;
+  padding: 8px 27px;
+  transition: background-color 0.5s ease-in-out , color 0.5s ease-in-out;
+  &:hover {
+    background: #fff;
+    color: #FF6464;
+  }
+  &__secondary {
+    background: gray;
+    border: 1px solid gray;
+    color: black;
+    &:hover {
+      background: white;
+      color: gray;
+  }
+}
+
 }

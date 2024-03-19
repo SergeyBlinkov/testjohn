@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import styles from "./page.module.css";
 import Header from "@/features/Header/Header";
 import MyselfResumeHead from "@/features/MyselfResume_head/MyselfResume_head";
@@ -13,7 +13,7 @@ export default function Home() {
         <main>
             <MyselfResumeHead />
             <RecentPosts />
-            <FeaturedWorks />
+            <FeaturedWorks limit={3} title={true}/>
         </main>
           <Footer />
       </div>

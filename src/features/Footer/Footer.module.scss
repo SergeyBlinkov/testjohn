@@ -12,4 +12,7 @@
 .social {
   display: flex;
   gap: 35px;
+  img {
+  cursor: pointer;
+  }
 }

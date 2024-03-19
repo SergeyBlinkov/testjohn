@@ -1,0 +1,22 @@
+.Date_mark {
+  font-family: Heebo sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0;
+  color: #8695A4;
+  text-align: left;
+  &__date {
+    background: #142850;
+    font-family: Heebo sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0;
+    text-align: left;
+    border-radius: 16px;
+    color: #fff;
+    padding:2px 10px;
+    margin-right: 16px;
+  }
+}
