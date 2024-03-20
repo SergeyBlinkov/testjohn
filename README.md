@@ -3,7 +3,7 @@
 ## Getting Started
 
 First, run the development server:
-you should be in the folder testjhon/testjhon and then use npm
+you should be in the folder /testjhon and then use npm
 ```bash
 npm run dev
 # or
