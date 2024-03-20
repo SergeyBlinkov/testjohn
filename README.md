@@ -1,9 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
 First, run the development server:
-
+you should be in the folder testjhon/testjhon and then use npm
 ```bash
 npm run dev
 # or
@@ -16,21 +16,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Then you can run backend node.js server go to the folder testjhon/testjhon_backend
+```bash
+npm run dev 
+```
+Now you can use api from backend server go to http://localhost:5000/
+you should see {"message":"working"}
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+In my environment i use several folder 
 
-To learn more about Next.js, take a look at the following resources:
+## Features 
+Component with logic that can be used only in pages or between another "Features" components
+## Shared 
+Component that has only visual and can be used everywhere in my project
+## Styles 
+In that folder i'm storage styles only for pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
