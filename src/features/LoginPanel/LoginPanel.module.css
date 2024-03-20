@@ -1,0 +1,17 @@
+.LoginPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.LoginPanel_buttonGroup {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.LoginPanel_buttonGroup__buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/*# sourceMappingURL=LoginPanel.module.css.map */

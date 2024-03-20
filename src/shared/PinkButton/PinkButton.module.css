@@ -1,0 +1,29 @@
+.PinkButton {
+  font-family: Heebo sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  background: #FF6464;
+  border-radius: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #FF6464;
+  padding: 8px 27px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.PinkButton:hover {
+  background: #fff;
+  color: #FF6464;
+}
+.PinkButton__secondary {
+  background: gray;
+  border: 1px solid gray;
+  color: black;
+}
+.PinkButton__secondary:hover {
+  background: white;
+  color: gray;
+}
+
+/*# sourceMappingURL=PinkButton.module.css.map */

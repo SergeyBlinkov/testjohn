@@ -6,6 +6,7 @@ import RecentPosts from "@/features/RecentPosts/RecentPosts";
 import FeaturedWorks from "@/features/FeaturedWorks/FeaturedWorks";
 import Footer from "@/features/Footer/Footer";
 
+
 export default function Home() {
   return (
       <div className={styles.app}>
@@ -17,6 +18,7 @@ export default function Home() {
         </main>
           <Footer />
       </div>
+
 
   );
 }

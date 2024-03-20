@@ -1,0 +1,18 @@
+.WorksPage {
+  display: flex;
+  flex-direction: column;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+}
+.WorksPage h2 {
+  font-family: Heebo sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 18px;
+}
+
+/*# sourceMappingURL=works.module.css.map */

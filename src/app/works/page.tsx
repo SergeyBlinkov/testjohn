@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/works.module.css';
+import styles from '@/styles/works.module.css';
 import Header from "@/features/Header/Header";
 import Footer from "@/features/Footer/Footer";
 import FeaturedWorks from "@/features/FeaturedWorks/FeaturedWorks";

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "@/features/Header/Header";
 import Footer from "@/features/Footer/Footer";
-import styles from './styles/blog.module.css';
+import styles from '@/styles/blog.module.css';
 import {Post, TPostData} from "@/features/RecentPosts/RecentPosts";
 
 const blogData:TPostData = {

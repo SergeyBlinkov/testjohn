@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Project.module.css';
+import styles from '@/styles/Project.module.css';
 import Header from "@/features/Header/Header";
 import Footer from "@/features/Footer/Footer";
 import {TWorksData, WorkComponent} from "@/features/FeaturedWorks/FeaturedWorks";
@@ -9,12 +9,12 @@ import secondProject2 from '@/features/FeaturedWorks/sources/7.png';
 
 
 const WorkData:TWorksData[] = [{
-        title:"Designing Dashboards with usability in mind",
-        date:"2020",
-        about:"Dashboard, User Experience Design",
-        text:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-        img:firstProject.src
-    },
+    title:"Designing Dashboards with usability in mind",
+    date:"2020",
+    about:"Dashboard, User Experience Design",
+    text:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    img:firstProject.src
+},
     {
         title:"Heading 1",
         second_title:"Heading 2",

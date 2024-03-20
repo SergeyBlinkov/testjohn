@@ -1,17 +1,16 @@
 "use client"
 import React from 'react';
 import S_PinkButton from './PinkButton.module.css';
-import {useRouter} from "next/navigation";
 
 type TPinkButton = {
     buttonType ?: "primary"|"secondary",
     text?: string,
     href?: string
-    handleNavigate?:() => void
+    handleClick?:() => void
+
 }
 
-const PinkButton = ({buttonType = "primary",text}:TPinkButton) => {
-    const route = useRouter()
+const PinkButton = ({buttonType = "primary",text,handleClick}:TPinkButton) => {
     const handleLoadClass = () => {
         if(buttonType === 'primary') {
             return `${S_PinkButton.PinkButton} ${S_PinkButton.PinkButton__primary}`
@@ -22,7 +21,7 @@ const PinkButton = ({buttonType = "primary",text}:TPinkButton) => {
     }
 
     return (
-        <button className={handleLoadClass()} onClick={() =>route.push("/login")}>
+        <button className={handleLoadClass()} onClick={handleClick}>
             {text ? text : "Download Resume"}
         </button>
     );

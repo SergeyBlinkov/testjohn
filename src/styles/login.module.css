@@ -1,0 +1,52 @@
+.Login {
+  background: #fff;
+  color: black;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 25px;
+  padding: 15px;
+}
+.Login h4 {
+  font-size: 32px;
+  margin: 15px;
+  text-align: center;
+}
+.Login_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 860px;
+  gap: 25px;
+}
+.Login_head__me {
+  display: flex;
+  gap: 25px;
+  width: 80%;
+  align-items: center;
+}
+.Login_head__me p {
+  width: 50%;
+}
+.Login_head__tips {
+  display: flex;
+  gap: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.Login_head__tips p {
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=login.module.css.map */

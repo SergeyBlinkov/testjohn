@@ -1,10 +1,11 @@
 "use client"
 import React, {useState} from 'react';
 import header_style from './Header.module.css';
-import {usePathname} from "next/navigation";
+import {usePathname, useRouter} from "next/navigation";
 import menu_logo from './sources/menu.png';
 import x_cross from './sources/close.png';
 import LoginPanel from "@/features/LoginPanel/LoginPanel";
+import PinkButton from "@/shared/PinkButton/PinkButton";
 
 
 
@@ -13,12 +14,12 @@ const Header = () => {
     const loc = usePathname()
     const pathname = loc?.split("/")[1]
 
-
+    const router = useRouter()
     const changeState = () => setOpenMenu(prev => !prev)
     const activeColor = {color:"#FF6464"}
     return (
         <div className={header_style.Header}>
-            <div className={header_style.Header_loginPanel}><LoginPanel /></div>
+            <div className={header_style.Header_loginPanel}><PinkButton text={"Login"} handleClick={() => router.push('/login')}/></div>
             <div className={header_style.Header_mobile}>
                 <img src={menu_logo.src} alt={'menu'} onClick={changeState}/>
                 <section className={header_style.Header_mobile__links} style={openMenu ? {marginLeft:0}: {}}>
